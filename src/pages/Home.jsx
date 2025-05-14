@@ -28,7 +28,7 @@ function Home() {
               </Link>
             )}
           </div>
-          <div className="col-lg-6 col-md-12 d-flex justify-content-center mb-4">
+          <div className="col-lg-6 col-md-12 d-flex justify-content-center mb-4 ">
             <img
               src="https://wallpapercave.com/wp/wp8791188.jpg"
               alt="Meal"
@@ -45,8 +45,8 @@ function Home() {
             "https://tse3.mm.bing.net/th?id=OIP.2PYrFyzDKmM7DXizioW1sAHaE7&pid=Api&P=0&h=220"
           ].map((img, i) => (
             <div className="col-lg-4 col-md-6 mb-4" key={i}>
-              <Card className="h-100">
-                <Card.Img variant="top" src={img} className="img-fluid" style={{ height: '250px', objectFit: 'cover' }} />
+              <Card className="h-100 p-2">
+                <Card.Img variant="top" src={img} className="img-fluid p-2" style={{ height: '250px', objectFit: 'cover' }} />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>

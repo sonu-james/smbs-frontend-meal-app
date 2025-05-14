@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import './home.css';
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
